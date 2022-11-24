@@ -1,4 +1,4 @@
-Terraform For Loops, Lists, Maps and Count Meta-Argument
+**Terraform For Loops, Lists, Maps and Count Meta-Argument**
 Step-00: Pre-requisite Note
 We are using the default vpc in us-east-1 region
 Step-01: Introduction
