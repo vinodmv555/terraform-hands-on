@@ -2,21 +2,24 @@
 
 Step-00: Pre-requisite Note
 We are using the default vpc in us-east-1 region
+
 Step-01: Introduction
-Terraform Meta-Argument: Count
-Terraform Lists & Maps
-List(string)
-map(string)
-Terraform for loops
-for loop with List
-for loop with Map
-for loop with Map Advanced
-Splat Operators
-Legacy Splat Operator .*.
-Generalized Splat Operator (latest)
-Understand about Terraform Generic Splat Expression [*] when dealing with count Meta-Argument and multiple output values
+  Terraform Meta-Argument: Count
+  Terraform Lists & Maps
+  List(string)
+  map(string)
+  Terraform for loops
+  for loop with List
+  for loop with Map
+  for loop with Map Advanced
+  Splat Operators
+  Legacy Splat Operator .*.
+  Generalized Splat Operator (latest)
+  Understand about Terraform Generic Splat Expression [*] when dealing with count Meta-Argument and multiple output values
+
 Step-02: c1-versions.tf
 No changes
+
 Step-03: c2-variables.tf - Lists and Maps
 # AWS EC2 Instance Type - List
 variable "instance_type_list" {
