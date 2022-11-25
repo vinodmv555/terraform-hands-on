@@ -19,6 +19,7 @@ variable "businessunit" {
 variable "environment" {
   description = "Enviornment"
   default     = "dev"
+<<<<<<< HEAD
 }
 
 # Instance Type - List
@@ -37,4 +38,6 @@ variable "instance_type_map" {
     "tst" = "t3.micro"
     "prd" = "t3.small"
   }
+=======
+>>>>>>> 8005cff7d988589ba262f947f6309fc6d4fe6aa7
 }
