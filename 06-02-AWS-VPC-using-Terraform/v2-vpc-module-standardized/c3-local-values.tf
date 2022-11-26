@@ -1,7 +1,7 @@
 locals {
   environment = var.environment
-  owners      = var.businessunit
-  name = "${var.businessunit}-${var.environment}"
+  owners      = var.business_divsion
+  name = "${var.business_divsion}-${var.environment}"
   #name = "${local.owners}-${local.environment}"
   common_tags = {
     owners = local.owners

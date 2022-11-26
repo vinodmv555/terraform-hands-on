@@ -11,7 +11,7 @@ variable "environment" {
 }
 
 # Declare Businessunit
-variable "businessunit" {
+variable "business_divsion" {
   description = "Businessunit"
   default = "HR"
 }
